@@ -1,0 +1,43 @@
+/* Global Bootstrap */
+* {
+    font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif;
+}
+p {
+    margin-bottom: 0;
+}
+
+
+/* Add Class Bootstrap */
+.fs-7 {
+    font-size: .9rem;
+}
+
+/* Custom Style */
+main {
+    min-height: 80vh;
+}
+.form-control-custom:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+.card-login {
+    max-width: 430px;
+    margin-top: 60px;
+}
+#loginButton:hover,
+#joinButton:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1.5px solid #000;
+    font-weight: bold;
+}
+.fyi {
+    color: red;
+}
+
+@media screen and (min-width: 768px) {
+    .side-card {
+        top: 6rem;
+    }
+}

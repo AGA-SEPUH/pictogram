@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container card-login p-0 mb-5"> 
+        <img src="asset/logo.png" alt="Logo" height="60">
+        <h4 class="fs-4 fw-medium my-4 py-1">Login to download unlimited full resolution images.</h4>
+
+        <div class="alert alert-dismissible fade show visually-hidden" role="alert">
+            <p class="text"></p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <div class="loginlink col-12 mb-4">
+            <button class="btn btn-light border border-dark-subtle w-100 d-flex justify-content-start align-items-center px-3 py-2">
+                <img src="asset/google-icon.png" alt="Google" class="me-2" width="21" height="22">
+                <span class="mx-auto">Continue with Google</span>
+            </button>
+            <button class="btn btn-light border border-dark-subtle w-100 d-flex justify-content-start align-items-center px-3 py-2 mt-3">
+                <i class="fab fa-facebook text-primary fa-lg"></i>
+                <span class="mx-auto">Continue with Facebook</span>
+            </button>
+        </div>
+
+        <hr class="mb-4">
+        <form action="" class="form-login" method="post">
+            <div class="input-group border border-secondary-subtle bg-white mb-3">
+                <span class="input-group-text border-0 bg-transparent"><i class="ri-mail-line ri-lg ps-1"></i></span>
+                <input type="email" name="email" class="form-control form-control-custom border border-0 ps-1" id="inputEmail" placeholder="name@example.com">
+            </div>
+    
+            <div class="input-group border border-secondary-subtle bg-white mb-3">
+                <span class="input-group-text border-0 bg-transparent"><i class="ri-lock-password-line ri-lg ps-1"></i></span>
+                <input type="password" name="password" class="form-control form-control-custom border border-0 ps-1" id="inputPassword" placeholder="Password">
+            </div>
+            <a href="#" class="text-decoration-none text-dark" id="forgotPassword">Forgot password?</a>
+    
+            <button type="submit" class="btn btn-dark w-100 mt-5" id="loginButton">Login</button>
+        </form>
+    </div>
+
+    <script src="js/jquery.js"></script> 
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/index.js"></script> 
+</body>
+</html>
